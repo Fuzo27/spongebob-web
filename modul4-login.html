@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modul 4</title>
+    <link rel="stylesheet" href="modul4.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <img src="spongebob-logo.jpeg" alt="">
+        <nav>
+            <ul>
+                <li><a href="modul4.html" class="pg1">Home</a></li>
+                <li><a href="#" class="pg2">Login</a></li>
+                <li><a href="modul4-contact.html" class="pg3">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="login">
+        <img src="spongebobprofile.jpeg" alt="">
+
+        <h1>Login</h1><br>
+        
+        <form id="profilForm" onsubmit="return validateForm()">
+            <label for="name">What's Your Name</label><br>
+            <input type="text" id="nama" placeholder="Enter Name"><br><br>
+            
+            <label for="email">Type Your Email</label><br>
+            <input type="email" id="email" placeholder="Enter Email"> <br><br>
+            
+            <label for="telepon">What's Your Phone Number</label><br>
+            <input type="tel" id="telepon" placeholder="Enter Phone Number"><br><br>
+        
+            <button type="submit">Simpan Profil</button>
+        </form>
+    </div>
+
+
+    <footer>
+        <p>&copy; 2024 - Naufal Zahran 607022330049 D3TK-47-02</p>
+    </footer>
+
+    <script src="modul4-login.js"></script>
+</body>
+
+</html>
